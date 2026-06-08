@@ -102,6 +102,3 @@ http://localhost:5173
 * Backend Integration
 
 
-
-```
-```
