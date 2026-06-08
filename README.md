@@ -101,19 +101,7 @@ http://localhost:5173
 * Admin Quiz Builder
 * Backend Integration
 
-## Author
 
-**Satheesh Rallapalle**
-
-Built as a React learning project to understand:
-
-* Components
-* Props
-* State Management
-* React Hooks
-* Routing
-* Project Structure
-* Interactive UI Development
 
 ```
 ```
