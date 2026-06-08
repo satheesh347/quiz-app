@@ -1,16 +1,119 @@
-# React + Vite
+# Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Quiz Application built using React and Vite. This project allows users to attempt quizzes, track their progress, receive instant feedback, view explanations, and see their final score.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Multiple Choice Questions (MCQs)
+* Progress Tracking
+* Quiz Timer
+* Score Calculation
+* Negative Marking (-0.5 for incorrect answers)
+* Instant Feedback
+* Correct Answer Reveal
+* Explanations for Answers
+* Results Page
+* Component-Based Architecture
+* React Router Navigation
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```text
+src
+│
+├── components
+│   ├── quiz.jsx
+│   ├── question.jsx
+│   ├── progressbar.jsx
+│   ├── time.jsx
+│   ├── result.jsx
+│   └── leaderboard.jsx
+│
+├── data
+│   └── questions.jsx
+│
+├── pages
+│   ├── home.jsx
+│   ├── quizpage.jsx
+│   └── resultpage.jsx
+│
+├── App.jsx
+├── main.jsx
+└── App.css
+```
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript (ES6+)
+* React Router DOM
+* CSS
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/satheesh347/quiz-app.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd quiz-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+## Quiz Rules
+
+* Correct Answer: +1 Mark
+* Incorrect Answer: -0.5 Mark
+* Explanations are displayed after answering each question.
+* Progress bar tracks quiz completion.
+* Final score is displayed on the result page.
+
+## Future Enhancements
+
+* Question Randomization
+* Option Randomization
+* Confetti Animation
+* Leaderboard Integration
+* User Authentication
+* Quiz Dashboard
+* Admin Quiz Builder
+* Backend Integration
+
+## Author
+
+**Satheesh Rallapalle**
+
+Built as a React learning project to understand:
+
+* Components
+* Props
+* State Management
+* React Hooks
+* Routing
+* Project Structure
+* Interactive UI Development
+
+```
+```
